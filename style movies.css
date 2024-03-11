@@ -1,0 +1,155 @@
+
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0px;
+}
+header{
+    background-color: rgb(41, 40, 40);
+    padding: 20px 0;
+}
+ul,a{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li a{
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+}
+nav ul li a:hover,nav ul li a:focus{
+    background-color:rgb(247, 6, 6);
+}
+.d{
+    width:300px;
+    height:318px;
+    background-color: rgb(34, 33, 33);
+    text-align: center;
+    position: relative;
+    left: 150px;
+    border: solid 2px rgb(68, 67, 67);
+}
+.p3{
+    color: red;
+    position: relative;
+    bottom: 220px;
+    opacity: 0;
+}
+.p3:hover{
+    opacity: 100%;
+}
+ section div:hover{
+    box-shadow: 1px 1px 2px 1px  rgb(172, 170, 170);
+    filter: saturate(2);
+    transform: scale(1.1); 
+}
+.i{
+    width:300px;
+    height:318px;
+    background-color: rgb(34, 33, 33);
+    text-align: center;
+    position: relative;
+    left: 527px;
+    bottom: 322px;
+    border: solid 2px rgb(68, 67, 67);
+}
+.v{    
+    width:300px;
+    height:318px;
+    background-color: rgb(34, 33, 33);
+    text-align: center;
+    position: relative;
+    bottom: 645px;
+    left:900px;
+    border: solid 2px rgb(68, 67, 67);
+}
+.ph{
+    width:200;
+    height: 250px;
+    position: relative;
+    top: 10px;
+}
+.div01{
+    width:300px;
+    height:318px;
+    background-color: rgb(34, 33, 33);
+    text-align: center;
+    position:relative;
+    bottom: 577px;
+    left: 150px;
+    border: solid 2px rgb(68, 67, 67);
+}
+.div02{
+    width:300px;
+    height:318px;
+    background-color: rgb(34, 33, 33);
+    text-align: center;
+    position: relative;
+    bottom: 900px;
+    left: 527px;
+    border: solid 2px rgb(68, 67, 67);
+}
+.div03{
+    width:300px;
+    height:318px;
+    background-color: rgb(34, 33, 33);
+    text-align: center;
+    position: relative;
+    bottom: 1222px;
+    left:900px;
+    border: solid 2px rgb(68, 67, 67);
+}
+.p1{
+    color: red;
+    font-size: 20px;
+    position: relative;
+    bottom: 5px;
+}
+.p2{
+    color: white;
+    position: relative;
+    bottom: 23px;
+}
+a{
+    text-decoration: none;
+}
+ aside div ul li{
+    display: inline;
+    position: relative;
+    bottom: 1165px;
+    padding: 2px;
+}
+aside div ul li a{
+    color: white;
+    padding:10px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+aside{
+    text-align: center;
+}
+  aside div ul li a:hover{
+    background-color: rgb(153, 151, 151);
+}
+footer {
+    background-color: rgb(41, 40, 40);
+    position: fixed; 
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+ footer ul li{
+    color: white;
+    list-style: none;
+  }
+  footer ul{
+    margin: 0;
+    padding: 0;
+  }
