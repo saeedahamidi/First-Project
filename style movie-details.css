@@ -5,7 +5,7 @@ body{
 }
 header{
     background-color: rgb(41, 40, 40);
-    padding: 20px 0;
+    padding: 25px 0;
 }
 ul,a{
     list-style: none;
@@ -26,12 +26,19 @@ nav ul li a{
 nav ul li a:hover,nav ul li a:focus{
     background-color:rgb(247, 6, 6);
 }
+.main{
+    width: 100%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
 .d{
     background-color:  rgb(41, 40, 40);
     width: 950px;
     height: 635px;
     position: relative;
     left: 200px;
+    border-radius: 10px;
 
 
 }
@@ -41,6 +48,7 @@ img{
     position: relative;
     left: 25px;
     top: 25px;
+    border-radius: 10px;
 }
 h2{
     color: red;
@@ -58,12 +66,13 @@ p{
     position: relative;
     left: 25px;
 }
-
 footer {
     background-color: rgb(41, 40, 40);
     position: fixed; 
     bottom: 0;
-    width: 100%;
+    width:100%;
+    right: 20px;
+    left: 0px;
     text-align: center;
 }
 ul li{
